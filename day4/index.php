@@ -10,7 +10,6 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
   $user_number = $_POST['number'];
 
 
-
   if ($user_number == $target_number) {
     echo "<h2>You are correct!</h2>";
     session_destroy();
