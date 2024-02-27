@@ -6,8 +6,6 @@ $sql = "select * from quotes";
 $result = mysqli_query($conn, $sql);
 $rows = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
-
-
 ?>
 
 <!DOCTYPE html>
